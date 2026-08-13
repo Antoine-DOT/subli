@@ -1,0 +1,2220 @@
+{
+  "metadata": {
+    "source": "https://wakfu.guide/sublimations/",
+    "retrievedAt": "2026-08-12",
+    "method": "HTML statique, lignes embarquées dans createSublimationsTable",
+    "report": {
+      "tables": 42,
+      "examined": 388,
+      "imported": 169,
+      "epicsIgnored": 80,
+      "relicsIgnored": 73,
+      "duplicates": 65,
+      "invalid": [
+        {
+          "line": "🟣**Longévité | En subissant des dommages de face et en mêlée, une fois par tour : +10% des pv manquants en armure et +40% d'armure donnée",
+          "reason": "moins de trois colonnes"
+        }
+      ]
+    }
+  },
+  "sublimations": [
+    {
+      "id": "abandon-6-vrb-9918c01",
+      "name": "Abandon 6",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "+3 PW +3 PO -30 % armure donnée et reçue (si maîtrises secondaire = 0)",
+      "acquisition": "Brèche d'Amakna (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "accumulation-4-vvb-43eed8a",
+      "name": "Accumulation 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "-20% soins réalisés mais chaque tour passé sans soigner : +20% soins réalisés (max 40%)",
+      "acquisition": "Stèle Compost du grand Potofeu (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "acribie-6-rvr-1ea0bda",
+      "name": "Acribie 6",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "+12% dégâts infligés aux cibles à 5 cases et +",
+      "acquisition": "Stèle Crustargneux (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "agilite-vitale-2-vbr-209359b",
+      "name": "Agilité vitale 2",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "En début de tour, si PV >= 90% : +1PM",
+      "acquisition": "Stèle Mansots (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "aisance-2-brb-5dfe7dd",
+      "name": "Aisance 2",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "Après avoir subi une perte de 2pm : +10 volonté (3 tours)",
+      "acquisition": "Stèle Source du mal (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "allocentrisme-4-vvv-2fa955f",
+      "name": "Allocentrisme 4",
+      "pattern": [
+        "V",
+        "V",
+        "V"
+      ],
+      "patternCode": "VVV",
+      "effect": "+20% d’armure donnée si le porteur de possède pas d’armure",
+      "acquisition": "Stèle Toundrasoirs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "altruisme-6-bvr-b5e7757",
+      "name": "Altruisme 6",
+      "pattern": [
+        "B",
+        "V",
+        "R"
+      ],
+      "patternCode": "BVR",
+      "effect": "12 % soins réalisés sur un allié en ligne et à distance",
+      "acquisition": "Brèche Moon (lvl 171 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ambition-6-vbr-dbc67e3",
+      "name": "Ambition 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "au début du premier tour, si les maîtrises secondaires sont ≤ 0, +30% cc",
+      "acquisition": "Brèche de la Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ambition-6-vbr-62ce374",
+      "name": "Ambition 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "Au début du premier tour, si les maîtrises secondaires sont ≤ 0, +30% cc",
+      "acquisition": "Brèche de la Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "appret-6-rbr-31c5dfd",
+      "name": "Apprêt 6",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "+6% de dégâts infligés pour le tour suivant par ennemi au corps à corps à la fin de votre tour",
+      "acquisition": "Stèle Mansots (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "appret-secondaire-6-brb-17612a2",
+      "name": "Apprêt Secondaire 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "En fin de tour, si un ennemi est au contact : +12% dégâts infligés au tour suivant",
+      "acquisition": "Stèle Nox (Boss Ultime lvl 245)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "arcanes-6-brb-d0e7c34",
+      "name": "Arcanes 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "si le porteur de l’état ne possède pas d’armure en fin de tour : +300 % du niveau en armure",
+      "acquisition": "Brèche de Tainéla (lvl 21 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "arme-empoisonnee-4-bbv-f6dcce7",
+      "name": "Arme empoisonnée 4",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "-10 % de dégâts infligés avec une arme, en infligeant des dommages à un ennemi avec une arme à deux mains : incurable +X niveau (selon le coût en PA de l’arme) sur l’ennemi ET le porteur",
+      "acquisition": "Brèche Moon (lvl 171 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "arme-solide-2-bbb-d4cec00",
+      "name": "Arme solide 2",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "En infligeant des dégâts avec une arme, l’ennemi touché diminue ses dégâts de 10 % sur la cible ayant l’effet (le porteur de l’état doit posséder un bouclier)",
+      "acquisition": "Brèche de Sufokia (lvl 66 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "armure-lourde-2-rvb-63ce2b7",
+      "name": "Armure lourde 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-1PM +10 % de dégâts infligés",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "armure-lourde-2-rvb-90a749b",
+      "name": "Armure Lourde 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-1PM +10% de dégâts infligés",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "art-du-cachement-4-bbb-3292e07",
+      "name": "Art du cachement 4",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "-24% dommages reçues hors ligne de vues, +12% dommages reçues lorsque le porteur est en ligne de vue",
+      "acquisition": "Stèle Crustargneux (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "balance-critique-6-vbv-42c34a5",
+      "name": "Balance Critique 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "A chaque sort non critique effectué : +12% de CC cumulable. Le bonus est perdu au prochain CC",
+      "acquisition": "Stèle Plantigardes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "barriere-distance-4-vvr-8b40465",
+      "name": "Barrière distance 4",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "réduit les dommages distance subis de 50 % du niveau, 8 fois par tour",
+      "acquisition": "Stèle Kannibouls (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "barriere-melee-4-vvb-1038e40",
+      "name": "Barrière mêlée 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "réduit les dommages mêlée subis de 50 % du niveau, 8 fois par tour",
+      "acquisition": "Stèle Tropikes (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "bouclier-critique-6-bvr-eee16c4",
+      "name": "Bouclier critique 6",
+      "pattern": [
+        "B",
+        "V",
+        "R"
+      ],
+      "patternCode": "BVR",
+      "effect": "+30 résistances critiques",
+      "acquisition": "Stèle Toundrasoirs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "bouclier-dorsal-6-rvv-dd5185c",
+      "name": "Bouclier dorsal 6",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "+30 résistances dos",
+      "acquisition": "Stèle Carapattes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "brulure-4-rrb-ad6ca9c",
+      "name": "Brûlure 4",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "+16% de dégâts feu",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "brulure-secondaire-4-rrv-7da055f",
+      "name": "Brûlure secondaire 4",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "En lançant un sort eau, terre ou air : +8% dégâts infligés au prochain sort feu (cumul max 30). Effet consommé au prochain sort feu direct",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "brulure-secondaire-4-rrv-3b771a4",
+      "name": "Brûlure secondaire 4",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "En lançant un sort eau, terre ou air : +8% dégâts infligés au prochain sort feu (cumul max 30)",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "carapace-2-rbb-bdd6753",
+      "name": "Carapace 2",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "-1PA +75 résistances élémentaire",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "carapace-sanguine-6-brb-15c55ce",
+      "name": "Carapace sanguine 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "En début de tour, convertit 60 % des PV courants en Armure",
+      "acquisition": "Stèle Trouffe Salée (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "carnage-6-rrv-5a8682b",
+      "name": "Carnage 6",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "lorsque les PV sont supérieurs a 90 % : +90 % du niveau en maîtrise elem",
+      "acquisition": "Stèle Crête Givrée (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "cicatrisation-6-rrb-081a78e",
+      "name": "Cicatrisation 6",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "+30 % PV",
+      "acquisition": "Stèle Tombeau de Pandala (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "cicatrisation-6-rrb-a481805",
+      "name": "Cicatrisation 6",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "+30% de PV",
+      "acquisition": "Stèle Tombeau de Pandala (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "clameur-6-vbr-cbf6280",
+      "name": "Clameur 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "-20 volonté. Réduit de 1 les 3 prochaines pertes de PM subis. L'effet se réapplique à chaque tour",
+      "acquisition": "Stèle Crocodailles (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "clameur-6-vbr-14d0aa4",
+      "name": "Clameur 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "-20 volonté Réduit de 3 la prochaine perte de PM subis. L’effet se réapplique à chaque tour",
+      "acquisition": "Stèle Crocodailles (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "combat-rapproche-2-rvb-3985409",
+      "name": "Combat rapproché 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-1PO +100 % du niveau en tacle et esquive",
+      "acquisition": "Brèche Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "combat-rapproche-2-rvb-fe88301",
+      "name": "Combat rapproché 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-1PO +100% du niveau en tacle et esquive",
+      "acquisition": "Brèche Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "conservation-4-bvb-3ec8795",
+      "name": "Conservation 4",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "+40% parade quand le porteur à plus de 90% de PV",
+      "acquisition": "Stèle Vandaliénés (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "consolation-critique-4-bvb-d08eae3",
+      "name": "Consolation critique 4",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "A chaque sort non critique effectué : +8% de dégâts infligés au prochain coup critique (cumulable jusqu’à 40%)",
+      "acquisition": "Stèle Carapattes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "contre-attaque-6-rvr-8a152bc",
+      "name": "Contre-attaque 6",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "Lorsque le porteur de l’état subit des dommages au cac, une fois par tour : +60 % du niveau en dommages lumière",
+      "acquisition": "Brèche de Sufokia (lvl 66 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "courage-6-brb-430ecea",
+      "name": "Courage 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "+12 % dommages et soins non critiques infligés -12 % dommages et soins critiques infligés",
+      "acquisition": "Brèche Ultime Frigost (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "critique-berserk-6-rvv-685d95e",
+      "name": "Critique Berserk 6",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "Lorsque les PV sont inférieurs à 50 % : +30 % cc",
+      "acquisition": "Stèle Tombeau de Pandala (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "critique-tactique-4-rvv-8624864",
+      "name": "Critique tactique 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "+12 % dommages critiques infligés si la cible a >50 % HP, -12 % si la cible a <50 % HP",
+      "acquisition": "Brèche d'Osamosa (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "critique-technique-2-rvb-96afdd4",
+      "name": "Critique technique 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "Le premier CC du tour inflige 12% de dégâts en plus. Les suivants infligent -6% de moins",
+      "acquisition": "Brèche d'Amakna (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "cyclothymie-2-bvr-9eb2bf6",
+      "name": "Cyclothymie 2",
+      "pattern": [
+        "B",
+        "V",
+        "R"
+      ],
+      "patternCode": "BVR",
+      "effect": "+20 volonté tour pair -20 tour impair",
+      "acquisition": "Stèle Womewo (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "dernier-soin-6-vrv-7c0a85c",
+      "name": "Dernier soin 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "En tombant sous 20% PV (1 fois par combat) : +30% PV max",
+      "acquisition": "Stèle Noirespore (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "dernier-souffle-6-vbr-f474b64",
+      "name": "Dernier souffle 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "lorsque le porteur commence son tour en dessous de 20 % de PV : +18 % de dégâts infligés et +300 % du niveau en armure",
+      "acquisition": "Brèche Ultime Zinit (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "dernier-souffle-6-vbr-94341f6",
+      "name": "Dernier souffle 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "lorsque le porteur commence son tour en dessous de 20 % de PV : +18 % de dégâts infligés +300 % du niveau en armure",
+      "acquisition": "Brèche Ultime Zinit (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "derniere-armure-6-rbr-971b270",
+      "name": "Dernière Armure 6",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "En tombant sous 20% PV (1 fois par combat) : +30% de PV max en armure",
+      "acquisition": "Stèle Srambad (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "dernieres-resistances-6-bvb-2945351",
+      "name": "Dernières résistances 6",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "En tombant sous 20% PV (1 fois par combat) : +120 résistances élémentaires (1 tour)",
+      "acquisition": "Stèle Sabléoptères (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "derobade-6-bbv-20f7786",
+      "name": "Dérobade 6",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "+30 % parade t1",
+      "acquisition": "Stèle Jawdin de la Weine (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "derobade-continue-6-vvr-3000494",
+      "name": "Dérobade continue 6",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "+18% parade",
+      "acquisition": "Stèle Toundrasoirs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "derobade-lente-4-rrv-84e5c97",
+      "name": "Dérobade lente 4",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "+6 % de parade par tour (max 40)",
+      "acquisition": "Stèle Cité interdite (Donjon 3 joueurs lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "destruction-6-vbv-a8e7b41",
+      "name": "Destruction 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "+18 % dégâts dos -12 % dégâts face et côté",
+      "acquisition": "Brèche de Bonta (lvl 141 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "determination-4-vvr-4871d35",
+      "name": "Détermination 4",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "-30 % dommages indirects reçus",
+      "acquisition": "Stèle E-Bou (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "devastation-3-bbb-8d7d7c2",
+      "name": "Dévastation 3",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "+1PW -10 volonté",
+      "acquisition": "Stèle Kannivores (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "diagnostic-6-vbv-6563d6f",
+      "name": "Diagnostic 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "En soignant un allié en monocible, +12% de soins réalisés supplémentaire sur cette cible au prochain tour",
+      "acquisition": "Stèle Nox (Boss Ultime lvl 245)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "dimensionnalite-2-rbv-0cf58c7",
+      "name": "Dimensionnalité 2",
+      "pattern": [
+        "R",
+        "B",
+        "V"
+      ],
+      "patternCode": "RBV",
+      "effect": "+1PW au t1 (non régénérable)",
+      "acquisition": "Stèle Méka (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ecailles-de-lune-6-vbr-b9dae10",
+      "name": "Ecailles de lune 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "+18% armure reçue",
+      "acquisition": "Stèle Sanctuaire des Dragoeufs (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ecailles-de-lune-6-vbr-3ccf526",
+      "name": "Ecailles de lune 6",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "+18 % armure reçue",
+      "acquisition": "Stèle Sanctuaire des Dragoeufs (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "elan-6-vrv-77bf8f1",
+      "name": "Elan 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "Si le porteur se déplace avec un sort, +30% de dégâts infligés sur la prochaine attaque",
+      "acquisition": "Stèle Nox (Boss Ultime lvl 245)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "embuscade-6-bbr-f67f2c4",
+      "name": "Embuscade 6",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "+12 % de dégâts infligés aux cibles au contact",
+      "acquisition": "Stèle Méka (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "embuscade-ecartee-6-rrb-7b2571a",
+      "name": "Embuscade écartée 6",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "+24 % de dégâts infligés aux cibles à 2 cases (exactement)",
+      "acquisition": "Stèle Tombeau de Pandala (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "endurance-6-vrb-776141e",
+      "name": "Endurance 6",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "-30% aux malus de caractéristiques reçues",
+      "acquisition": "Stèle Kannivores (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "enveloppe-rocheuse-6-rbb-36e8ce8",
+      "name": "Enveloppe rocheuse 6",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "+18% armure donnée",
+      "acquisition": "Stèle Abraknyde (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "enveloppe-rocheuse-6-rbb-296ac53",
+      "name": "Enveloppe rocheuse 6",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "+18 % armure donnée",
+      "acquisition": "Stèle Abraknyde (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "epines-6-bbr-2c96f40",
+      "name": "Epines 6",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "effectuer une parade donne +6 préparation (+6 % dégâts finaux au prochain sort du prochain tour)",
+      "acquisition": "Stèle Sanctuaire des Dragoeufs (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "esquive-berserk-6-bbv-9a7d209",
+      "name": "Esquive Berserk 6",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "300% du niveau en Esquive si pv inférieurs à 50 %",
+      "acquisition": "Stèle Kannivores (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "etre-sensible-4-rvb-1fbba6e",
+      "name": "Être sensible 4",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "Si deux alliés ou plus sont entre 1 et 4 cases du porteur : +8 % de dégâts infligés",
+      "acquisition": "Brèche Ultime Zinit (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "evasion-6-rbr-0387fa3",
+      "name": "Evasion 6",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "+300% du niveau en esquive",
+      "acquisition": "Stèle Noirespore (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "expert-des-armes-legeres-6-rbr-fa57476",
+      "name": "Expert des armes légères 6",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "+150 % du niveau en maîtrise elem et +12 % de dégâts infligés sur une cible avec de l’armure (si aucun bouclier, ni dague, ni armes à deux mains n’est équipé)",
+      "acquisition": "Brèche Ultime Frigost (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "expert-des-coups-critiques-4-bvv-b617dc1",
+      "name": "Expert des coups critiques 4",
+      "pattern": [
+        "B",
+        "V",
+        "V"
+      ],
+      "patternCode": "BVV",
+      "effect": "En fin de tour, si un coup critique a été effectué, +8 % des pv manquants du lanceur",
+      "acquisition": "Stèle Crête Givrée (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "expert-des-parades-2-vbb-3785f70",
+      "name": "Expert des parades 2",
+      "pattern": [
+        "V",
+        "B",
+        "B"
+      ],
+      "patternCode": "VBB",
+      "effect": "-50 résistances élémentaire -15 % dommage reçus lors d’une parade",
+      "acquisition": "Stèle Kannibouls (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "fermete-3-rbr-31e74fc",
+      "name": "Fermeté 3",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "Après avoir subi une perte de 3pa : +30 volonté",
+      "acquisition": "Stèle Volcan Or'Hodruin (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "focalisation-2-vrr-cff8e0f",
+      "name": "Focalisation 2",
+      "pattern": [
+        "V",
+        "R",
+        "R"
+      ],
+      "patternCode": "VRR",
+      "effect": "-15% de dégâts infligés. En début de tour, +25% de dégâts infligé si un seul ennemi à été touché au tour précédent",
+      "acquisition": "Stèle E-Bou (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "folie-4-rvr-51f9f8b",
+      "name": "Folie 4",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "+24% dommage infligés en diagonale",
+      "acquisition": "Stèle Womewo (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "folie-vampirique-4-rvr-b1c1d94",
+      "name": "Folie Vampirique 4",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "-20% soins reçus mais vole 16% des dégâts infligés sur les dégâts infligés en diagonale",
+      "acquisition": "Stèle Trouffe Salée (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "force-legere-6-vvr-9386c04",
+      "name": "Force légère 6",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "+18% de dommages infligés tant que le porteur ne possède pas d’armure",
+      "acquisition": "Stèle Plantigardes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "force-vitale-2-rvb-92b6d9e",
+      "name": "Force vitale 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "En début de tour, si PV >= 90% : +1PA",
+      "acquisition": "Stèle Carapattes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "frenesie-2-rvb-61cee2b",
+      "name": "frénésie 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-20 % de dégâts infligés, en début de tour +10 % de dégâts infligés par ennemi touché dans le tour précédent",
+      "acquisition": "Stèle d'intervention Aguabrial (1) (Donjon Blérox/Volcan/Dragoeufs/Crête Givrée 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "frenesie-2-rvb-99eec15",
+      "name": "frénésie 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-20 % de dégâts infligés, en début de tour +10 % de dégâts infligés par ennemi touché dans le tour précédent",
+      "acquisition": "Stèle d'intervention Aguabrial (1) (Donjon Blérox / Volcan / Dragoeufs / Crête Givrée 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "fuite-6-vbv-0b788f4",
+      "name": "Fuite 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "En esquivant un ennemi (avec pertes) : +1 PM (3 max/tour)",
+      "acquisition": "Stèle Jawdin de la Weine (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "fureur-2-rvb-9f5b627",
+      "name": "Fureur 2",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "-15 % de dégâts infligés, +5 % de dégâts infligés par entité touchée dans le tour précédent",
+      "acquisition": "Stèle Tanière des Blérox (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "gel-4-bbv-56d3bc6",
+      "name": "Gel 4",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "+16% de dégâts eau",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "gel-secondaire-4-vvb-a83e7f5",
+      "name": "Gel secondaire 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "En lançant un sort feu, terre ou air : +8% dégâts infligés au prochain sort eau (cumul max 30). Effet consommé au prochain sort eau direct",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "gel-secondaire-4-vvb-1fc9ee7",
+      "name": "Gel secondaire 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "En lançant un sort feu, terre ou air : +8% dégâts infligés au prochain sort eau (cumul max 30)",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "influence-6-vbv-81bcd9a",
+      "name": "Influence 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "+18% cc",
+      "acquisition": "Drop sur mimic Runique",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "influence-de-wakfu-ii-rrb-fc35640",
+      "name": "influence de Wakfu II",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "+20 % cc si le porteur commence son tour avec tous ses PW",
+      "acquisition": "Brèche de Sufokia (lvl 66 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "influence-lente-4-rvv-d5d1abb",
+      "name": "Influence lente 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "+4 % cc par tour (max 30)",
+      "acquisition": "Stèle E-Bou (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "influence-paradoxale-4-vrb-6a29847",
+      "name": "Influence paradoxale 4",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "Si un coup non critique est effectué avec un sort élémentaire : +20 % de Coup Critique au tour suivant",
+      "acquisition": "Stèle Vandaliénés (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "influence-vitale-6-vrv-d651a5d",
+      "name": "Influence vitale 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "Lorsque les PV sont supérieurs à 90 % : +24 % de Coup Critique",
+      "acquisition": "Stèle Crustargneux (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "integrite-2-bbr-0c57813",
+      "name": "Intégrité 2",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "En soignant un allié, si cet allié à moins de 15 % de pv : +14 % des pv max de la cible sont soignés (supplémentaire)",
+      "acquisition": "Stèle d'intervention Aguabrial (2) (Donjon Blérox lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "interception-6-rvr-5af8d10",
+      "name": "Interception 6",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "+300% du niveau en tacle",
+      "acquisition": "Stèle Trouffe Salée (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "interposition-6-bvv-acbc4df",
+      "name": "Interposition 6",
+      "pattern": [
+        "B",
+        "V",
+        "V"
+      ],
+      "patternCode": "BVV",
+      "effect": "En taclant un ennemi : +300% du niveau en armure",
+      "acquisition": "Stèle Plantigardes (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "jugement-6-rrb-91748f9",
+      "name": "Jugement 6",
+      "pattern": [
+        "R",
+        "R",
+        "B"
+      ],
+      "patternCode": "RRB",
+      "effect": "En infligeant des dommages monocibles à un ennemi, +18% dégâts infligés sur cette cible au prochain tour",
+      "acquisition": "Stèle Nox (Boss Ultime lvl 245)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "legerete-3-brb-8ab258c",
+      "name": "Légèreté 3",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "Après avoir subi une perte de 3pm : +30 volonté",
+      "acquisition": "Stèle Sanctuaire des Dragoeufs (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "longueur-6-brr-8b15538",
+      "name": "longueur 6",
+      "pattern": [
+        "B",
+        "R",
+        "R"
+      ],
+      "patternCode": "BRR",
+      "effect": "+12 % de dégâts infligés aux cibles alignées et à 2 cases et plus du porteur de l’état",
+      "acquisition": "Drop Mimic Runique",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "longueur-d-armure-6-rbv-fa52aa3",
+      "name": "longueur d’armure 6",
+      "pattern": [
+        "R",
+        "B",
+        "V"
+      ],
+      "patternCode": "RBV",
+      "effect": "+24 % armure donnée sur un allié en ligne et à distance",
+      "acquisition": "Brèche de Bonta (lvl 141 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "loup-solitaire-4-rbv-55fa25d",
+      "name": "Loup solitaire 4",
+      "pattern": [
+        "R",
+        "B",
+        "V"
+      ],
+      "patternCode": "RBV",
+      "effect": "+8 % de dégâts infligés si aucun allié n’est entre 1 et 4 cases du porteur",
+      "acquisition": "Stèle d'intervention Aguabrial (2) (Donjon Volcan Or'Hodruin lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "main-forte-6-vrr-60795c5",
+      "name": "Main forte 6",
+      "pattern": [
+        "V",
+        "R",
+        "R"
+      ],
+      "patternCode": "VRR",
+      "effect": "finir son tour au contact d’un ennemi lui applique -30 % d’armure reçue (1tour)",
+      "acquisition": "Brèche de Tainéla (lvl 21 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "manie-4-brv-44e3653",
+      "name": "Manie 4",
+      "pattern": [
+        "B",
+        "R",
+        "V"
+      ],
+      "patternCode": "BRV",
+      "effect": "Les dommages en mêlée retirent 200 % du niveau en armure sur la cible, -12% armure reçue",
+      "acquisition": "Brèche Moon (lvl 171 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "muraille-4-rbv-7b4e8f5",
+      "name": "Muraille 4",
+      "pattern": [
+        "R",
+        "B",
+        "V"
+      ],
+      "patternCode": "RBV",
+      "effect": "En début de combat, 600 % du niveau en armure",
+      "acquisition": "Stèle Tropikes (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "nature-6-vrb-e884122",
+      "name": "Nature 6",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "12 % soins réalisés sur un allié au contact d’un autre allié",
+      "acquisition": "Brèche de Sufokia (lvl 66 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "neutralite-4-bvr-2db0d03",
+      "name": "Neutralité 4",
+      "pattern": [
+        "B",
+        "V",
+        "R"
+      ],
+      "patternCode": "BVR",
+      "effect": "Au début du t1, si maîtrise secondaires ≤ 0, +32 % de dégâts infligés",
+      "acquisition": "Brèche d'Osamosa (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "opiniatrete-2-rbr-72d04cc",
+      "name": "Opiniâtreté 2",
+      "pattern": [
+        "R",
+        "B",
+        "R"
+      ],
+      "patternCode": "RBR",
+      "effect": "Après avoir subi une perte de 2pa : +10 volonté (3 tours)",
+      "acquisition": "Stèle Canyon des Fléopards (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "parade-berserk-6-bvb-c3eeb71",
+      "name": "Parade Berserk 6",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "+30 % parade si pv inférieurs à 50 %",
+      "acquisition": "Stèle Tanière des Blérox (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "parade-berzerk-6-bvb-7285fe7",
+      "name": "Parade Berzerk 6",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "+30 % parade si pv inférieurs à 50 %",
+      "acquisition": "Stèle Tanière des Blérox (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "parade-offensive-2-rrv-9cbc44c",
+      "name": "Parade offensive 2",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "en faisant une parade sur une attaque directe ennemie : +4 % de dégâts infligés -10 % parade",
+      "acquisition": "Brèche d'Osamosa (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "persistance-2-rvr-ba35783",
+      "name": "Persistance 2",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "En fin de tour, si le porteur de l’état a 6PA ou plus, +60res elem (2 tours)",
+      "acquisition": "Stèle Canyon des Fléopards (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "pied-ferme-4-brr-8160f73",
+      "name": "Pied ferme 4",
+      "pattern": [
+        "B",
+        "R",
+        "R"
+      ],
+      "patternCode": "BRR",
+      "effect": "finir son tour au contact d’un ennemi lui applique -20 % de soins réalisés (1tour)",
+      "acquisition": "Brèche Ultime Zinit (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "poids-plume-4-rrr-f9793c2",
+      "name": "Poids plume 4",
+      "pattern": [
+        "R",
+        "R",
+        "R"
+      ],
+      "patternCode": "RRR",
+      "effect": "par PM supérieur à 4 (au début du combat) +8 % de dégâts infligés (max 24)",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "precaution-4-rvr-d3c073d",
+      "name": "Précaution 4",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "En terminant son tour avec moins de 50 % PV : soins de 20 % des pv manquants",
+      "acquisition": "Brèche d'Amakna (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "preparation-critique-4-rvv-b2dc5ed",
+      "name": "Préparation critique 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "A chaque cc effectué (max 5) +8 niveau de préparation (+8 % de dégâts infligés au prochain sort du prochain tour)",
+      "acquisition": "Brèche Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "pretention-6-vbv-950d67d",
+      "name": "Prétention 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "Au début du t1, si maîtrise secondaire ≤ 0 , +30 % parade",
+      "acquisition": "Brèche d'Osamosa (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "profit-6-bbv-454722d",
+      "name": "Profit 6",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "Après avoir effectué un retrait PA ou PM : +1 PA (3 max/tour)",
+      "acquisition": "Stèle Cagnardeurs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "propagation-4-rvv-9d7a962",
+      "name": "Propagation 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "Une fois par tour, quand vous infligez des dommages : inflige 40% du niveau en dommages lumières aux cibles alignées avec la cible",
+      "acquisition": "Stèle Jawdin de la Weine (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "prosperite-4-vrb-98304ff",
+      "name": "Prospérité 4",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "+12 % aux bonus de caractéristiques reçues (maîtrises, résistances, armure) lancé par un allié",
+      "acquisition": "Stèle Source du mal (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "puissance-brute-4-vvv-d0419c6",
+      "name": "Puissance Brute 4",
+      "pattern": [
+        "V",
+        "V",
+        "V"
+      ],
+      "patternCode": "VVV",
+      "effect": "-4 PW, Pour chaque PW dépensé au cours du tours +8 % de dégâts infligés (1 tour) (max 16)",
+      "acquisition": "Brèche Ultime Zinit (lvl 201 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "puits-de-vitalite-6-vrv-4074299",
+      "name": "Puits de vitalité 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "augmente de 30 % les vols de vie réalisés",
+      "acquisition": "Stèle Sabléoptères (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ravage-4-vvv-5486d44",
+      "name": "Ravage 4",
+      "pattern": [
+        "V",
+        "V",
+        "V"
+      ],
+      "patternCode": "VVV",
+      "effect": "en début de combat, toutes les maîtrises +20 % du niveau toutes les res +12",
+      "acquisition": "Stèle Volcan Or'Hodruin (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ravage-secondaire-6-vvv-46629bc",
+      "name": "Ravage secondaire 6",
+      "pattern": [
+        "V",
+        "V",
+        "V"
+      ],
+      "patternCode": "VVV",
+      "effect": "+9%cc +9 % parade +9volonté",
+      "acquisition": "Stèle Canyon des Fléopards (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "relations-sociales-6-bvb-9898b2e",
+      "name": "Relations sociales 6",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "+12 % dégâts dos en tour pair, +12 % dégâts de face tour impair",
+      "acquisition": "Brèche Moon (lvl 171 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "represailles-4-rrv-81c8d82",
+      "name": "Représailles 4",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "+24% de dégâts infligés sur les cibles qui vous ont infligés des dégâts directs à distance (non cumulable)",
+      "acquisition": "Stèle Mansots (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "reprobation-6-vrv-2c33f50",
+      "name": "Réprobation 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "-20 volonté. Réduit de 1 les 3 prochaines pertes de PA subis. L'effet se réapplique à chaque tour",
+      "acquisition": "Drop Mimic Runique",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "reprobation-6-vrv-6f9fc1d",
+      "name": "Réprobation 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "-20 volonté, Réduit de 3 la prochaine perte de PA subis (une fois par tour)",
+      "acquisition": "Drop Mimic Runique",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "retour-d-armure-4-brr-e2b14ed",
+      "name": "Retour d’armure 4",
+      "pattern": [
+        "B",
+        "R",
+        "R"
+      ],
+      "patternCode": "BRR",
+      "effect": "En tuant un ennemi : 10 % des PV max en Armure (2 activations par tour)",
+      "acquisition": "Stèle Srambad (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "retour-enflamme-2-rrv-dd23d15",
+      "name": "Retour enflammé 2",
+      "pattern": [
+        "R",
+        "R",
+        "V"
+      ],
+      "patternCode": "RRV",
+      "effect": "gagne 100 % du niveau en enflammé en tuant un ennemi (1 fois par tour)",
+      "acquisition": "Brèche de Bonta (lvl 141 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "retour-pa-4-brv-4d0cf1f",
+      "name": "Retour PA 4",
+      "pattern": [
+        "B",
+        "R",
+        "V"
+      ],
+      "patternCode": "BRV",
+      "effect": "regagne +2PA en tuant un ennemi (2 max par tour)",
+      "acquisition": "Stèle Crête Givrée (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "retour-pm-4-brv-3946016",
+      "name": "Retour PM 4",
+      "pattern": [
+        "B",
+        "R",
+        "V"
+      ],
+      "patternCode": "BRV",
+      "effect": "regagne +2PM en tuant un ennemi (2 max par tour)",
+      "acquisition": "Stèle Source du mal (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "retour-vital-2-vrv-b64a37c",
+      "name": "Retour vital 2",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "soigne 20 % des pv manquants du lanceur en tuant un ennemi (2 par tour max)",
+      "acquisition": "Brèche de Tainéla (lvl 21 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "revigoration-4-vbr-80956be",
+      "name": "Revigoration 4",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "-10 % soins réalisés, le porteur de l’état est soigne de 16 % des soins réalisés sur ses alliés",
+      "acquisition": "Brèche d'Amakna (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ruine-6-rrr-85c8d75",
+      "name": "Ruine 6",
+      "pattern": [
+        "R",
+        "R",
+        "R"
+      ],
+      "patternCode": "RRR",
+      "effect": "+30 % dégâts indirects",
+      "acquisition": "Stèle Sabléoptères (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ruine-cyclique-2-rrr-e3ed5a7",
+      "name": "Ruine cyclique 2",
+      "pattern": [
+        "R",
+        "R",
+        "R"
+      ],
+      "patternCode": "RRR",
+      "effect": "+20 % dégâts indirects dans les tours de table pairs",
+      "acquisition": "Stèle Cité interdite (Donjon 3 joueurs lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "rupture-pa-4-bbb-4895f3a",
+      "name": "Rupture PA 4",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "Si vous retirez intégralement l’armure d’une cible : vous regagnez 2PA (2 fois par tour)",
+      "acquisition": "Stèle Abraknyde (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "rupture-pa-4-bbb-285219d",
+      "name": "Rupture PA 4",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "Si vous retirez intégralement l’armure d’une cible : vous regagnez 2PA (max 2fois par tour)",
+      "acquisition": "Stèle Abraknyde (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "rupture-violente-4-vvr-04f77c9",
+      "name": "Rupture violente 4",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "Si vous retirez intégralement l’armure d’une cible : vous infligez 40% de votre niveau en dégâts lumières",
+      "acquisition": "Stèle Srambad (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "sanguinolence-4-rvr-6f32f74",
+      "name": "Sanguinolence 4",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "A chaque malus ou perte appliqués sur une cible : +8% de dégâts reçus par la cible (max 40%)",
+      "acquisition": "Stèle Cagnardeurs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "sauvegarde-6-brr-c4ffd6e",
+      "name": "Sauvegarde 6",
+      "pattern": [
+        "B",
+        "R",
+        "R"
+      ],
+      "patternCode": "BRR",
+      "effect": "En fin de tour, les PA non utilisés sont transmis au tour suivants (max 3)",
+      "acquisition": "Stèle Volcan Or'Hodruin (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "sauvegarde-critique-6-brb-a7cc067",
+      "name": "Sauvegarde critique 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "En fin de tour, les PA non utilisés sont transmis en Coup critique au tour suivant (10% CC par PA, max 3)",
+      "acquisition": "Stèle Nox (Boss Ultime lvl 245)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "sauvegarde-du-wakfu-2-rbb-32d7638",
+      "name": "Sauvegarde du Wakfu 2",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "-1PW / En fin de tour, +1PW si le porteur n’a pas dépensé de PW",
+      "acquisition": "Stèle Womewo (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "secret-de-la-vie-2-vbb-8ac5708",
+      "name": "Secret de la vie 2",
+      "pattern": [
+        "V",
+        "B",
+        "B"
+      ],
+      "patternCode": "VBB",
+      "effect": "Au début du combat : +10 % soins réalisés, réduit la maîtrise soin à 0",
+      "acquisition": "Stèle d'intervention Aguabrial (2) (Donjon Dragoeufs lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "solidite-2-rvr-069aab0",
+      "name": "Solidité 2",
+      "pattern": [
+        "R",
+        "V",
+        "R"
+      ],
+      "patternCode": "RVR",
+      "effect": "réduit les dommages directs reçus supérieurs à 20 % des PV max de 400 % du niveau (une fois par tour de table)",
+      "acquisition": "Stèle Palais Lenald (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "stupefaction-4-vbv-f2246ff",
+      "name": "Stupéfaction 4",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "+20%cc (1 tour) +20 % du niveau en maîtrise crit (1 tour)",
+      "acquisition": "Stèle Tanière des Blérox (Donjon lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tabass-carapace-4-rvb-5c06168",
+      "name": "Tabass’Carapace 4",
+      "pattern": [
+        "R",
+        "V",
+        "B"
+      ],
+      "patternCode": "RVB",
+      "effect": "+24% de dégâts infligés sur une cible qui possède de l’armure",
+      "acquisition": "Stèle Cagnardeurs (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tacle-berserk-6-bbb-4952425",
+      "name": "Tacle Berserk 6",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "lorsque les PV sont inférieurs à 50 % : +300% du niveau en tacle",
+      "acquisition": "Stèle Crocodailles (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tacle-berserk-6-bbb-7f277a1",
+      "name": "Tacle Berserk 6",
+      "pattern": [
+        "B",
+        "B",
+        "B"
+      ],
+      "patternCode": "BBB",
+      "effect": "300% du niveau en tacle si pv inférieurs à 50 %",
+      "acquisition": "Stèle Crocodailles (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tellurisme-4-vvr-2ace788",
+      "name": "Tellurisme 4",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "+16% de dégâts terre",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tellurisme-secondaire-4-bbr-15904a3",
+      "name": "Tellurisme secondaire 4",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "En lançant un sort feu, eau ou air : +8% dégâts infligés au prochain sort terre (cumul max 30). Effet consommé au prochain sort terre direct",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tellurisme-secondaire-4-bbr-fc2a415",
+      "name": "Tellurisme secondaire 4",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "En lançant un sort feu, eau ou air : +8% dégâts infligés au prochain sort terre (cumul max 30)",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "temerite-4-bbv-cc40f08",
+      "name": "Témérité 4",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "Lorsque le porteur retire toute son armure à une cible, +12% de dégâts infligés pour le reste du tour (max 30%)",
+      "acquisition": "Stèle Abraknyde (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "temporisation-4-vrb-e85f776",
+      "name": "Temporisation 4",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "En début de tour, si aucun PW n'a été utilisé au tour précédent : +16% de dommage infligé et + 16% de soins réalisés",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "temporisation-4-vrb-ac46079",
+      "name": "Temporisation 4",
+      "pattern": [
+        "V",
+        "R",
+        "B"
+      ],
+      "patternCode": "VRB",
+      "effect": "En début de tour, si aucun PW n'a été utilisé au tour précédent : +16% de dommage infligé et +16% de soins réalisés",
+      "acquisition": "Brèche Ultime Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tenacite-4-vvb-744ea6d",
+      "name": "Ténacité 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "en fin de tour, si le porteur de l’état a 2pa ou plus : +50 résistances élémentaires (1 tour)",
+      "acquisition": "Stèle Palais Lenald (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "theorie-de-la-matiere-2-bvr-4733f49",
+      "name": "Théorie de la matière 2",
+      "pattern": [
+        "B",
+        "V",
+        "R"
+      ],
+      "patternCode": "BVR",
+      "effect": "+100 % cc -50 % dommages et soins",
+      "acquisition": "Stèle Méka (Donjon lvl 170)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "tolerance-2-rbb-0a6127d",
+      "name": "Tolérance 2",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "en fin de tour, 50 % des PM non utilisés sont transmis au tour suivant (max 2)",
+      "acquisition": "Stèle d'intervention Aguabrial (2) (Donjon Crète Givrée lvl 200)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "topologie-3-bvb-6bf71ca",
+      "name": "Topologie 3",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "au début du combat, toute l’esquive du porteur est convertie en armure avec un ratio de 1 pour 3 (esquive perdue)",
+      "acquisition": "Stèle Cité interdite (Donjon 3 joueurs lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "valeur-ajoutee-4-bvv-05236cc",
+      "name": "Valeur ajoutée 4",
+      "pattern": [
+        "B",
+        "V",
+        "V"
+      ],
+      "patternCode": "BVV",
+      "effect": "Pour chaque dommage indirect effectué: +8% dégâts indirects et -8% dégâts directs (max 40%) → bonus perdu en début de tour",
+      "acquisition": "Stèle Compost du grand Potofeu (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "velocite-2-vrr-6c4c634",
+      "name": "Vélocité 2",
+      "pattern": [
+        "V",
+        "R",
+        "R"
+      ],
+      "patternCode": "VRR",
+      "effect": "+1PM -10 % de dégâts infligés",
+      "acquisition": "Stèle Tropikes (Donjon lvl 185) + récompense de quête de Pandala (Par le Bambou Sacré !)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ventilation-4-rbv-2b3e405",
+      "name": "Ventilation 4",
+      "pattern": [
+        "R",
+        "B",
+        "V"
+      ],
+      "patternCode": "RBV",
+      "effect": "+16% de dégâts air",
+      "acquisition": "Stèle Enutrosor (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ventilation-secondaire-4-rvv-ae3e15b",
+      "name": "Ventilation secondaire 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "En lançant un sort feu, eau ou terre : +8% dégâts infligés au prochain sort air (cumul max 30). Effet consommé au prochain sort air direct",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "ventilation-secondaire-4-rvv-7acf2b3",
+      "name": "Ventilation secondaire 4",
+      "pattern": [
+        "R",
+        "V",
+        "V"
+      ],
+      "patternCode": "RVV",
+      "effect": "En lançant un sort feu, eau ou terre : +8% dégâts infligés au prochain sort air (cumul max 30)",
+      "acquisition": "Stèle Blopéra (Donjon lvl 155)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "verrouillage-6-vrv-dd9e806",
+      "name": "Verrouillage 6",
+      "pattern": [
+        "V",
+        "R",
+        "V"
+      ],
+      "patternCode": "VRV",
+      "effect": "+24% de dégâts infligés aux cibles sans ligne de vue à 3cases et plus",
+      "acquisition": "Brèche Shukrute (lvl 216 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "visibilite-2-bvv-420f731",
+      "name": "Visibilité 2",
+      "pattern": [
+        "B",
+        "V",
+        "V"
+      ],
+      "patternCode": "BVV",
+      "effect": "+1PO -150 tacle -150 esquive",
+      "acquisition": "Stèle Kannibouls (Donjon lvl 185)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "vision-intermediaire-6-brb-5dc4099",
+      "name": "Vision intermédiaire 6",
+      "pattern": [
+        "B",
+        "R",
+        "B"
+      ],
+      "patternCode": "BRB",
+      "effect": "+18% dégâts infligés aux cibles à 3PO pile poil",
+      "acquisition": "Stèle Noirespore (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "vivacite-2-rbb-2b99bb7",
+      "name": "Vivacité 2",
+      "pattern": [
+        "R",
+        "B",
+        "B"
+      ],
+      "patternCode": "RBB",
+      "effect": "+1PA -75 résistances",
+      "acquisition": "Stèle Crocodailles (Donjon lvl 185) + récompense de quête de Pandala (Par le Bambou Sacré !)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "vol-d-esquive-4-vbr-839d924",
+      "name": "Vol d'Esquive 4",
+      "pattern": [
+        "V",
+        "B",
+        "R"
+      ],
+      "patternCode": "VBR",
+      "effect": "-10 % Dommages Infligés avec une arme. En infligeant des dommages à un ennemi avec une arme à deux mains : Vole 60 % du niveau en Esquive (1 tour, non-cumulable)",
+      "acquisition": "Brèche de Bonta (lvl 141 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "vol-d-esquive-4-vvb-8ee8b38",
+      "name": "Vol d’esquive 4",
+      "pattern": [
+        "V",
+        "V",
+        "B"
+      ],
+      "patternCode": "VVB",
+      "effect": "-10 % de dégâts infligés avec une arme, en infligeant des dommages avec une arme à 2 mains : vole 60 % du niveau en esquive (1 fois par tour max)",
+      "acquisition": "Brèche de Bonta (lvl 141 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "vol-de-tacle-4-vvr-a84cc94",
+      "name": "Vol de tacle 4",
+      "pattern": [
+        "V",
+        "V",
+        "R"
+      ],
+      "patternCode": "VVR",
+      "effect": "-10 % de dégâts infligés avec une arme, en infligeant des dommages avec une arme à 2 mains : vole 60 % du niveau en tacle (1 fois par tour max)",
+      "acquisition": "Brèche de Tainéla (lvl 21 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "volonte-directe-6-bvb-e8d1dc5",
+      "name": "Volonté directe 6",
+      "pattern": [
+        "B",
+        "V",
+        "B"
+      ],
+      "patternCode": "BVB",
+      "effect": "+18 Volonté pendant votre tour de jeu / -24 volonté en dehors de votre tour de jeu",
+      "acquisition": "Stèle Vandaliénés (Donjon lvl 215)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "volonte-indirecte-6-vbv-9a8af32",
+      "name": "Volonté indirecte 6",
+      "pattern": [
+        "V",
+        "B",
+        "V"
+      ],
+      "patternCode": "VBV",
+      "effect": "+18 Volonté en dehors de votre tour de jeu / -24 volonté pendant votre tour de jeu",
+      "acquisition": "Stèle Compost du grand Potofeu (Donjon lvl 140)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "volte-face-2-bbv-eb1448a",
+      "name": "Volte face 2",
+      "pattern": [
+        "B",
+        "B",
+        "V"
+      ],
+      "patternCode": "BBV",
+      "effect": "Lorsque le porteur de l’état subis des dommages au contact : se retourne vers l’attaquant (une fois par tour)",
+      "acquisition": "Brèche Ultime Frigost (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    },
+    {
+      "id": "wakfu-berzerk-4-bbr-3aa8638",
+      "name": "Wakfu Berzerk 4",
+      "pattern": [
+        "B",
+        "B",
+        "R"
+      ],
+      "patternCode": "BBR",
+      "effect": "Si le porteur de l’état commence son tour avec 50 % ou moins de ses PW : +12 % dégats crit, +400 % du niveau en armure",
+      "acquisition": "Brèche Ultime Frigost (lvl 111 minimum)",
+      "source": "https://wakfu.guide/sublimations/"
+    }
+  ]
+}
