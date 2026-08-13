@@ -4,7 +4,7 @@ MVP public et statique permettant de trouver les sublimations classiques compati
 
 ## Prérequis
 
-- Node.js 22+
+- Node.js 20.19+ ou 22.12+
 - npm 10+
 
 ## Développement
