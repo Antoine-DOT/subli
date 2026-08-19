@@ -30,7 +30,7 @@ describe('présentation des sublimations', () => {
   })
 
   it('affiche le nombre final comme un maximum', () => {
-    expect(formatSublimationName('Brûlure 6')).toBe('Brûlure (Max 6)')
+    expect(formatSublimationName('Brûlure 6')).toBe('Brûlure (Max lvl 6)')
     expect(formatSublimationName('Sans niveau')).toBe('Sans niveau')
   })
 })

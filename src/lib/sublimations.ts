@@ -13,5 +13,5 @@ export function deduplicateSublimations(sublimations: readonly Sublimation[]): S
 }
 
 export function formatSublimationName(name: string): string {
-  return name.replace(/\s+(\d+)\s*$/, ' (Max $1)')
+  return name.replace(/\s+(\d+)\s*$/, ' (Max lvl $1)')
 }
