@@ -1,4 +1,4 @@
-import { useMemo, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import dataset from './data/sublimations.json'
 import { findCompatibleSublimations } from './lib/matching'
 import { searchSublimations } from './lib/search'
@@ -31,6 +31,7 @@ export default function App() {
   const [activeSlot, setActiveSlot] = useState(0)
   const [query, setQuery] = useState('')
   const [reorderable, setReorderable] = useState(false)
+  const [theme, setTheme] = useState<'dark' | 'light'>(() => localStorage.getItem('subli-theme') === 'light' ? 'light' : 'dark')
   const equipment = sockets.filter((socket): socket is EquipmentSocket => socket !== null)
   const matches = useMemo(() => findCompatibleSublimations(
     sublimations,
@@ -38,6 +39,11 @@ export default function App() {
     reorderable ? 'reorderable' : 'ordered',
   ), [sockets, reorderable])
   const searchResults = useMemo(() => searchSublimations(sublimations, query), [query])
+
+  useEffect(() => {
+    document.documentElement.dataset.theme = theme
+    localStorage.setItem('subli-theme', theme)
+  }, [theme])
 
   function chooseSocket(socket: EquipmentSocket) {
     const updated = [...sockets]
@@ -54,7 +60,7 @@ export default function App() {
   }
 
   return <>
-    <header className="topbar"><a className="brand" href="#top" aria-label="Subli, accueil"><span className="brand-mark">S</span>SUBLI</a><span className="header-note">L’ATELIER DES SUBLIMATIONS</span></header>
+    <header className="topbar"><a className="brand" href="#top" aria-label="Subli, accueil"><span className="brand-mark">S</span>SUBLI</a><div className="header-actions"><span className="header-note">L’ATELIER DES SUBLIMATIONS</span><button className="theme-toggle" type="button" aria-pressed={theme === 'light'} onClick={() => setTheme((current) => current === 'dark' ? 'light' : 'dark')}><span aria-hidden="true">{theme === 'dark' ? '☀' : '☾'}</span>{theme === 'dark' ? 'Mode clair' : 'Mode sombre'}</button></div></header>
     <main id="top">
       <section className="quick-search" aria-labelledby="search-title"><div className="quick-search-heading"><p className="step">RECHERCHE DIRECTE</p><h1 id="search-title">Rechercher une sublimation</h1></div><label className="search-box"><span aria-hidden="true">⌕</span><input type="search" value={query} onChange={(event) => setQuery(event.target.value)} placeholder="Brûlure, Sauvegarde…" aria-label="Rechercher une sublimation par nom" />{query && <button onClick={() => setQuery('')} aria-label="Effacer la recherche">×</button>}</label>{query.trim() && <div className="search-summary">{searchResults.length} résultat{searchResults.length > 1 ? 's' : ''}</div>}{query.trim() && <div className="result-list search-list">{searchResults.map((item) => <ResultCard key={item.id} item={item} />)}</div>}</section>
 
