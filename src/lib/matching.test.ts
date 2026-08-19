@@ -38,6 +38,18 @@ describe('matching', () => {
     expect(findCompatibleSublimations(subs, ['R', 'R'])).toEqual([])
   })
 
+  it('ne compacte pas les châsses séparées par un trou', () => {
+    const subs = [makeSub('bvb', 'BVB')]
+    expect(findCompatibleSublimations(subs, ['B', 'V', null, 'B'])).toEqual([])
+    expect(findCompatibleSublimations(subs, ['B', null, 'V', 'B'])).toEqual([])
+  })
+
+  it('accepte toujours trois châsses contiguës avec une quatrième vide', () => {
+    const subs = [makeSub('bvb', 'BVB')]
+    expect(findCompatibleSublimations(subs, ['B', 'V', 'B', null])).toHaveLength(1)
+    expect(findCompatibleSublimations(subs, [null, 'B', 'V', 'B'])).toHaveLength(1)
+  })
+
   it('valide exactement trois couleurs classiques', () => {
     expect(isValidClassicPattern(['R', 'V', 'B'])).toBe(true)
     expect(isValidClassicPattern(['R', 'J', 'B'])).toBe(false)
@@ -82,6 +94,11 @@ describe('matching', () => {
       const result = findCompatibleSublimations([sublimation], ['R', 'B', 'V', 'J'], 'reorderable')
       expect(result).toHaveLength(1)
       expect(new Set(result.map(({ id }) => id)).size).toBe(result.length)
+    })
+
+    it('refuse également les trous en mode ordre modifiable', () => {
+      const sublimation = makeSub('bvb', 'BVB')
+      expect(findCompatibleSublimations([sublimation], ['B', 'V', null, 'B'], 'reorderable')).toEqual([])
     })
   })
 })
