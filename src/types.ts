@@ -1,5 +1,6 @@
 export type RequiredSocket = 'R' | 'V' | 'B'
 export type EquipmentSocket = RequiredSocket | 'J'
+export type EquipmentSlot = EquipmentSocket | null
 
 export interface Sublimation {
   id: string

@@ -2,9 +2,10 @@ import { useMemo, useState } from 'react'
 import dataset from './data/sublimations.json'
 import { findCompatibleSublimations } from './lib/matching'
 import { searchSublimations } from './lib/search'
+import { deduplicateSublimations, formatSublimationName } from './lib/sublimations'
 import type { EquipmentSocket, Sublimation, SublimationMatch } from './types'
 
-const sublimations = dataset.sublimations as Sublimation[]
+const sublimations = deduplicateSublimations(dataset.sublimations as Sublimation[])
 const colors: Array<{ code: EquipmentSocket; label: string }> = [
   { code: 'R', label: 'Rouge' }, { code: 'V', label: 'Verte' }, { code: 'B', label: 'Bleue' }, { code: 'J', label: 'Blanche / Joker' },
 ]
@@ -18,7 +19,7 @@ function ResultCard({ item, showWindows = false }: { item: Sublimation | Sublima
   return <article className="result-card">
     <div className="result-pattern"><Pattern code={item.patternCode} /><span className="pattern-code">{item.patternCode}</span></div>
     <div className="result-copy">
-      <div className="result-title"><h3>{item.name}</h3>{showWindows && windows.length > 0 && <span className="window-tag">{windows.length === 2 ? 'Deux fenêtres' : windows[0]}</span>}</div>
+      <div className="result-title"><h3>{formatSublimationName(item.name)}</h3>{showWindows && windows.length > 0 && <span className="window-tag">{windows.length === 2 ? 'Deux fenêtres' : windows[0]}</span>}</div>
       <p>{item.effect}</p>
       <p className="acquisition"><span>Obtention</span>{item.acquisition}</p>
     </div>
@@ -33,7 +34,7 @@ export default function App() {
   const equipment = sockets.filter((socket): socket is EquipmentSocket => socket !== null)
   const matches = useMemo(() => findCompatibleSublimations(
     sublimations,
-    sockets.filter((socket): socket is EquipmentSocket => socket !== null),
+    sockets,
     reorderable ? 'reorderable' : 'ordered',
   ), [sockets, reorderable])
   const searchResults = useMemo(() => searchSublimations(sublimations, query), [query])
@@ -67,7 +68,7 @@ export default function App() {
       </section>
 
       <section className="results" aria-live="polite">
-        <div className="results-heading"><div><p className="step">SUBLIMATIONS POSSIBLES</p><h2>{equipment.length < 3 ? 'Complète au moins 3 châsses' : <><strong>{matches.length}</strong> sublimation{matches.length > 1 ? 's' : ''} compatible{matches.length > 1 ? 's' : ''}</>}</h2></div>{equipment.length >= 3 && <span className="equipment-code">{equipment.join('')}</span>}</div>
+        <div className="results-heading"><div><p className="step">SUBLIMATIONS POSSIBLES</p><h2>{equipment.length < 3 ? 'Complète au moins 3 châsses' : <><strong>{matches.length}</strong> sublimation{matches.length > 1 ? 's' : ''} compatible{matches.length > 1 ? 's' : ''}</>}</h2></div>{equipment.length >= 3 && <span className="equipment-code">{sockets.map((socket) => socket ?? 'X').join('')}</span>}</div>
         {equipment.length < 3 ? <div className="empty-state"><span>⌁</span><p>Les résultats apparaîtront ici dès que trois châsses seront renseignées.</p></div> : <div className="result-list">{matches.map((item) => <ResultCard key={item.id} item={item} showWindows={equipment.length === 4 && !reorderable} />)}</div>}
       </section>
 

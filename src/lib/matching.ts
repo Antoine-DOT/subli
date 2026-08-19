@@ -1,4 +1,4 @@
-import type { EquipmentSocket, RequiredSocket, Sublimation, SublimationMatch } from '../types'
+import type { EquipmentSlot, RequiredSocket, Sublimation, SublimationMatch } from '../types'
 
 const requiredSockets = new Set<RequiredSocket>(['R', 'V', 'B'])
 const socketColors: RequiredSocket[] = ['R', 'V', 'B']
@@ -9,12 +9,21 @@ export function isValidClassicPattern(pattern: readonly string[]): pattern is Re
   return pattern.length === 3 && pattern.every((socket) => requiredSockets.has(socket as RequiredSocket))
 }
 
-export function matchesWindow(pattern: readonly RequiredSocket[], window: readonly EquipmentSocket[]): boolean {
+export function matchesWindow(pattern: readonly RequiredSocket[], window: readonly EquipmentSlot[]): boolean {
   return isValidClassicPattern(pattern) && window.length === 3 && pattern.every((required, index) => window[index] === 'J' || window[index] === required)
 }
 
-export function matchesReorderable(pattern: readonly RequiredSocket[], equipment: readonly EquipmentSocket[]): boolean {
+function hasThreeContiguousSockets(equipment: readonly EquipmentSlot[]): boolean {
+  let contiguous = 0
+  return equipment.some((socket) => {
+    contiguous = socket === null ? 0 : contiguous + 1
+    return contiguous >= 3
+  })
+}
+
+export function matchesReorderable(pattern: readonly RequiredSocket[], equipment: readonly EquipmentSlot[]): boolean {
   if (!isValidClassicPattern(pattern) || equipment.length < 3 || equipment.length > 4) return false
+  if (!hasThreeContiguousSockets(equipment)) return false
 
   const jokers = equipment.filter((socket) => socket === 'J').length
   const missingColors = socketColors.reduce((missing, color) => {
@@ -26,7 +35,7 @@ export function matchesReorderable(pattern: readonly RequiredSocket[], equipment
   return missingColors <= jokers
 }
 
-export function findOrderedSublimations(sublimations: readonly Sublimation[], equipment: readonly EquipmentSocket[]): SublimationMatch[] {
+export function findOrderedSublimations(sublimations: readonly Sublimation[], equipment: readonly EquipmentSlot[]): SublimationMatch[] {
   if (equipment.length < 3 || equipment.length > 4) return []
   const windows = equipment.length === 3
     ? [{ label: '1-2-3' as const, sockets: equipment }]
@@ -42,7 +51,7 @@ export function findOrderedSublimations(sublimations: readonly Sublimation[], eq
   })
 }
 
-export function findReorderableSublimations(sublimations: readonly Sublimation[], equipment: readonly EquipmentSocket[]): SublimationMatch[] {
+export function findReorderableSublimations(sublimations: readonly Sublimation[], equipment: readonly EquipmentSlot[]): SublimationMatch[] {
   if (equipment.length < 3 || equipment.length > 4) return []
   return sublimations.flatMap((sublimation) => matchesReorderable(sublimation.pattern, equipment)
     ? [{ ...sublimation, windows: [] }]
@@ -51,7 +60,7 @@ export function findReorderableSublimations(sublimations: readonly Sublimation[]
 
 export function findCompatibleSublimations(
   sublimations: readonly Sublimation[],
-  equipment: readonly EquipmentSocket[],
+  equipment: readonly EquipmentSlot[],
   mode: MatchingMode = 'ordered',
 ): SublimationMatch[] {
   return mode === 'reorderable'
